@@ -9,6 +9,8 @@ btn.addEventListener("click", function() {
     xhr.onload = function() {
     var text = xhr.responseText; 
     const p = document.getElementById("output");
+    p.innerHTML = text;
+
 
 
 
