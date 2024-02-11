@@ -4,7 +4,9 @@ Mini Project
 
 Overview:
 
-The YouTube Transcript Summarizer is a project aimed at providing users with a convenient tool for summarizing YouTube video transcripts. This project consists of a Chrome extension and a Flask web application, working together to offer a seamless summarization experience.
+The YouTube Transcript Summarizer is a project aimed at providing users with a convenient tool for summarizing YouTube video transcripts. 
+
+This project consists of a Chrome extension and a Flask web application, working together to offer a seamless summarization experience.
 
 Features:
 
@@ -21,16 +23,23 @@ Getting Started:
 To use the YouTube Transcript Summarizer:
 
 Install the Chrome extension by loading it into your browser from the extension manager.
+
 Ensure that the Flask web application is running locally on your machine.
+
 Open a YouTube video and click the "Summarise" button provided by the extension.
+
 The extension will communicate with the Flask server to retrieve the transcript, summarize it, and display the summary in the extension interface.
 
 Dependencies:
 
 Python 3.x
+
 Flask
+
 YouTube Transcript API
+
 Hugging Face transformers library
+
 Chrome Browser
 
 
