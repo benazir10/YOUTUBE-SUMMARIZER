@@ -11,6 +11,7 @@ btn.addEventListener("click", function() {
     const p = document.getElementById("output");
     p.innerHTML = text;
     btn.disabled = false;
+    btn.innerHTML = "Summarise";
 
 
 
