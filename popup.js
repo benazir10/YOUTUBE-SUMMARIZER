@@ -4,6 +4,8 @@ btn.addEventListener("click", function() {
   btn.innerHTML "Summarising...";
   chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
     var url = tabs[0].url;
+    var xhr = new XMLHttpRequest();
+
 
 
 
