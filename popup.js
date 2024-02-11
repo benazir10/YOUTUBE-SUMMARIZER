@@ -8,6 +8,7 @@ btn.addEventListener("click", function() {
     xhr.open("GET", "http://127.0.0.1:5000/summary?url=" + url, true);
     xhr.onload = function() {
     var text = xhr.responseText; 
+    const p = document.getElementById("output");
 
 
 
