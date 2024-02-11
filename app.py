@@ -6,6 +6,7 @@ app = Flask(__name__)
 def summary_api():
   url = request.args.get('url', '')
 video_id = url.split('=')[1]
+summary = get_summary(get_transcript(video_id))
 
 
 
