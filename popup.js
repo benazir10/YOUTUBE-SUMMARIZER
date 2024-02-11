@@ -6,6 +6,8 @@ btn.addEventListener("click", function() {
     var url = tabs[0].url;
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "http://127.0.0.1:5000/summary?url=" + url, true);
+    xhr.onload = function() {
+
 
 
 
