@@ -1,3 +1,5 @@
 "manifest_version": 3,
 "name": "Youtube Summariser",
+"description": "An extension to summarize youtube videos using the transcript",
+
 
